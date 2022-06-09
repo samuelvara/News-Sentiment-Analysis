@@ -11,7 +11,7 @@ a. Pull the 10 most recent News articles about Mozambique from the Aljazeera usi
 
 b. I extracted all the valid clickable titles and used the articles according to their "recentness",
 
-## step 2: Get NEWS description and headlines from the extracted link 
+## Step 2: Get NEWS description and headlines from the extracted link 
 a. Pull the Headline and Content of the article from all the clickable elements. 
 b. Sometimes, not all content was not available in the main page of Aljazeera. So, I went in deeper into the child article link to get the entire content.
 c. Use the 10 most recent articles
