@@ -16,7 +16,8 @@ def clean(s):
     s = s.lower()
     req = []
     for word in s.split(' '):
-        req.append(word)
+        if word not in STOPWORDS:
+            req.append(word)
     return ' '.join(req)
 
 
