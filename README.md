@@ -36,7 +36,7 @@ This is a roBERTa-base model trained on ~124M tweets from January 2018 to Decemb
 I used this https://arxiv.org/abs/2202.03829 as my base model.
 
 
-## Step 5: visualization
+## Step 5: Visualization
 a. Each bar represent the sum of all the probabilities of a sentiment. The height of each segment denotes the probability of a particular sentiment.
 b. Visualization picture is stored in viz.png
 
