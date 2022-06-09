@@ -43,7 +43,10 @@ b. Visualization picture is stored in viz.png
 
 ## Total Time: 5 Sec
 
-# Data 
+# Data
+
+The articles used are in results.json.
+
 ## *Please refer to results.json file in the repository for the Headline and Article data fetched from Url*
 
 # How to Run the code 
