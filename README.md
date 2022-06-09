@@ -1,6 +1,5 @@
 # News-Sentiment-Analysis
 
-About this Project
 
 This project pulls the most recent articles from "https://www.aljazeera.com/where/mozambique/" and predicts the sentiment from it.
 
