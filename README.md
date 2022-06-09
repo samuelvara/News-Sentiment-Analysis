@@ -28,10 +28,10 @@ a. Apply the below cleaning functions on the content of the article
 
 I used the content of each article, tokenized it using BERT base encoder and then predicted the sentiment. I verified the predicted sentiment with the actual. My classes were 'Positive', 'Negative' and 'Neutral'.
 
-### *I used BERT based Model, DistilBART, BART, T5, CamelBERT and I found that RoBERTa gave the most confident results*
+### *I referred to BERT, DistilBART, BART, T5, CamelBERT and I found that RoBERTa gave the most confident results*
 
 ### roBERTa:
-This is a roBERTa-base model trained on ~124M tweets from January 2018 to December 2021, and finetuned for sentiment analysis with the TweetEval benchmark. The original roBERTa-base model can be found here and the original reference paper is TweetEval. This model is suitable for English.
+RoBERTa stands for Robustly Optimized BERT Pre-training Approach. This roBERTa-base model trained on ~124M tweets from January 2018 to December 2021, and finetuned for sentiment analysis with the TweetEval benchmark. The original reference paper is TweetEval. This model is suitable for English.
 
 I used this https://arxiv.org/abs/2202.03829 as my base model.
 
