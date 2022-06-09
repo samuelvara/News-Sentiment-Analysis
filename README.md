@@ -31,11 +31,6 @@ I used the content of each article, tokenized it using BERT base encoder and the
 
 ### *I used BERT based Model, DistilBART, BART, T5, CamelBERT and I found that RoBERTa gave the most confident results*
 
-### NLTK (VADER) and TextBlob:
-Both packages rely on a rules-based sentiment analyzer. It, therefore, attaches a positive or negative rating to certain words (ex. horrible has a negative association), pays attention to negation if it exists, and returns values based on these words. This tends to work fine, and has the advantage of being simple and extremely fast, but has some weaknesses.
-
-As sentences get longer, more neutral words exist, and therefore, the overall score tends to normalize more towards neutral as well (or does it)
-
 ### roBERTa:
 This is a roBERTa-base model trained on ~124M tweets from January 2018 to December 2021, and finetuned for sentiment analysis with the TweetEval benchmark. The original roBERTa-base model can be found here and the original reference paper is TweetEval. This model is suitable for English.
 
