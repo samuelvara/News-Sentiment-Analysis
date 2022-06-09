@@ -39,6 +39,7 @@ I used this https://arxiv.org/abs/2202.03829 as my base model.
 ## Step 5: Visualization
 a. Each bar represent the sum of all the probabilities of a sentiment. The height of each segment denotes the probability of a particular sentiment.
 b. Visualization picture is stored in viz.png
+<img width="1265" alt="viz" src="https://user-images.githubusercontent.com/40538922/172770776-def03178-b898-4c75-bbc5-61919030985f.png">
 
 ## Total Time: 5 Sec
 
