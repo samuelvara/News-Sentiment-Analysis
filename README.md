@@ -5,7 +5,7 @@ This project pulls the most recent articles from "https://www.aljazeera.com/wher
 
 ## Code Flow
 
-### Step 1: Get NEWS link from given URL 
+## Step 1: Get NEWS link from given URL 
 a. Pull the 10 most recent News articles about Mozambique from the Aljazeera using the package "request" and "BeautifulSoup".
 
 b. I extracted all the valid clickable titles and used the articles according to their "recentness",
