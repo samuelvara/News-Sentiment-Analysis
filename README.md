@@ -12,11 +12,13 @@ b. I extracted all the valid clickable titles and used the articles according to
 
 ## Step 2: Get NEWS description and headlines from the extracted link 
 a. Pull the Headline and Content of the article from all the clickable elements. 
+
 b. Sometimes, not all content was not available in the main page of Aljazeera. So, I went in deeper into the child article link to get the entire content.
+
 c. Use the 10 most recent articles
 
 ## Step 3: Data Cleaning 
-a. Apply the below cleaning functions on the content of the article
+Apply the below cleaning functions on the content of the article
     remove punctuation
     remove numbers
     convert to lowercase
