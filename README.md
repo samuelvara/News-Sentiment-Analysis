@@ -3,7 +3,7 @@
 
 This project pulls the most recent articles from "https://www.aljazeera.com/where/mozambique/" and predicts the sentiment from it.
 
-## Code Flow:
+## Code Flow
 
 ### Step 1: Get NEWS link from given URL 
 a. Pull the 10 most recent News articles about Mozambique from the Aljazeera using the package "request" and "BeautifulSoup".
